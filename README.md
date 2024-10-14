@@ -1,8 +1,8 @@
 # cst-element-matlab
 CST elements analyzing using finite element method in MATLAB
 
-== Analyzing CST elements using MATLAB ==
-==== Developed by Mohammad Sajednia ====
+= Analyzing CST elements using MATLAB =
+= Developed by Mohammad Sajednia =
 
 Inputs:
 
@@ -12,9 +12,10 @@ Column 2: X coordinate of the node
 Column 3: Y coordinate of the node
 
 2. elements.txt
-Column 1: the number of the first node
-Column 2: the number of the second node
-Column 3: the number of the third node
+Column 1: the number of the element
+Column 2: the number of the first node
+Column 3: the number of the second node
+Column 4: the number of the third node
 
 3. boundaries.txt
 Column 1: the number of the constrained node
